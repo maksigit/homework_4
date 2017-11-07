@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b67c7adc-e019-4385-a4d8-0a58b05bd2f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/home_4.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/maksiproject/app/AppKernel.php" afterPath="$PROJECT_DIR$/maksiproject/app/AppKernel.php" />
       <change beforePath="$PROJECT_DIR$/maksiproject/app/config/routing.yml" afterPath="$PROJECT_DIR$/maksiproject/app/config/routing.yml" />
@@ -293,12 +291,20 @@
       <workItem from="1509539809052" duration="400000" />
       <workItem from="1509540219386" duration="2046000" />
       <workItem from="1509976154305" duration="127000" />
-      <workItem from="1510079214597" duration="1784000" />
+      <workItem from="1510079214597" duration="1904000" />
     </task>
+    <task id="LOCAL-00001" summary="remove .idea">
+      <created>1510081029671</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510081029672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4357000" />
+    <option name="totallyTimeSpent" value="4477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="-11" width="1319" height="780" extended-state="6" />
@@ -327,6 +333,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
