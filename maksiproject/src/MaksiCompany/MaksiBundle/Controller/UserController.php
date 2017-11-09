@@ -8,20 +8,20 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class DefaultController extends Controller
+class UserController extends Controller
 {
 
     /**
-     * @Route("/", name="home")
+     * @Route("/user", name="home")
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function indexAction(Request $request)
+    public function UserAction(Request $request)
     {
         //$this->generateUrl('blog', array('page' => 2)) ;
-        var_dump($request->server->all());
-        var_dump($_SERVER);
-        exit;
-        return $this->render('MaksiCompanyMaksiBundle:Default:index.html.twig');
+        //var_dump($request->server->all());
+        //var_dump($_SERVER);
+        //exit;
+        return $this->render('MaksiCompanyMaksiBundle:Default:user.html.twig');
         //return new Response('foo');
     }
 

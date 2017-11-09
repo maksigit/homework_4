@@ -1,7 +1,4 @@
 maksi_company_maksi:
-    resource: "@MaksiCompanyMaksiBundle/Resources/config/routing.xml"
-    prefix:   /
-
-app:
-    resource: '@AppBundle/Controller/'
+    resource: "@MaksiCompanyMaksiBundle/Controller/"
     type: annotation
+
